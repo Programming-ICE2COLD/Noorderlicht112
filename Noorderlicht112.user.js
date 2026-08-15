@@ -6,7 +6,7 @@
 // ==UserScript==
 // @name         Noorderlicht 112
 // @namespace    http://tampermonkey.net/
-// @version      0.1.6
+// @version      0.1.7
 // @description  Een script voor het toepassen van de stijl van het team "Noorderlicht 112"
 // @updateURL    https://github.com/Programming-ICE2COLD/Noorderlicht112/blob/main/Noorderlicht112.user.js
 // @downloadURL  https://github.com/Programming-ICE2COLD/Noorderlicht112/blob/main/Noorderlicht112.user.js
