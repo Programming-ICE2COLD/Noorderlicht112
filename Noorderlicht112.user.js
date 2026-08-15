@@ -74,7 +74,7 @@ addGlobalStyle('html > body > div:first-of-type > nav > div:nth-of-type(2) > div
 
 // Kleuren
 addGlobalStyle('html > body > div:first-of-type .navbar-default {background-color: #D1132F !important }'); // Kleur navigatiebalk bovenaan
-addGlobalStyle('html > body > div:first-of-type > nav > div:nth-of-type(2) > div:first-of-type > ul {background-color: #12FFFF !important;}'); // Kleur uitvouwmenu MK-NN
+addGlobalStyle('html > body > div:first-of-type > nav > div:nth-of-type(2) > div:first-of-type > ul {background-color: #D1132F !important;}'); // Kleur uitvouwmenu MK-NN
 addGlobalStyle('.mission_panel_red {border-left: 5px #D1132F solid !important}'); // Kleur lint links van meldingen
 addGlobalStyle('.navbar-nav > li > .dropdown-menu {background-color: #D1132F !important}'); // Kleur overige uitvouwmenu's
 addGlobalStyle('#container_navbar_alarm {background-color: #D1132F !important}'); // Kleur onderste balk bij alarmeren van meldingen
