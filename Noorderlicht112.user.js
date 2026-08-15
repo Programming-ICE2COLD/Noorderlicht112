@@ -1,6 +1,7 @@
 // Changelog 0.1.4: kleine tekstuele aanpassingen, scriptlink verkort.
 // Changelog 0.1.5: Up- en downloadlink toegevoegd aan het script en handleidingen pagina toegevoegd.
-// Changelog 0.1.6: Typefouten hersteld
+// Changelog 0.1.6: Typefouten hersteld.
+// Changelog 0.1.7: Discord link aangepast.
 
 // ==UserScript==
 // @name         Noorderlicht 112
@@ -24,7 +25,7 @@ var scriptVersie = GM_info.script.version;
 $("html > body > div:first-of-type > nav > div:nth-of-type(2) > div:first-of-type").append ( `
                 <a id="MKSNN" role="button" class="dropdown-toggle" onselectstart="return false" data-toggle="dropdown" aria-expanded="true">Noorderlicht 112 <b class="caret"></b></a>
                <ul class="dropdown-menu" role="menu" >
-                  <li class="unselectable"><a href="https://discord.gg/aWEkPZ2Z" target="_blank">Kom in onze gezellige Discord!</a></li>
+                  <li class="unselectable"><a href="https://discord.gg/PXrsVBSw8f" target="_blank">Kom in onze gezellige Discord!</a></li>
                   <li class="unselectable"><a ">Versie ${scriptVersie}</a></li>
                   <li class+"unselectable"><a href="https://drive.google.com/drive/folders/1ggcEjxO4lRkdesmCBmxecfh9VVbzkY4U?usp=sharing" target="_blank">Team-handleidingen</a?</li>
                 </ul>
