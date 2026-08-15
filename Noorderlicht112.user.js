@@ -7,8 +7,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1.6
 // @description  Een script voor het toepassen van de stijl van het team "Noorderlicht 112"
-// @updateURL    https://github.com/DouwevanderKooi/MKS/main/Noorderlicht.user.js
-// @downloadURL  https://github.com/DouwevanderKooi/MKS/main/Noorderlicht.user.js
+// @updateURL    https://github.com/Programming-ICE2COLD/Noorderlicht112/blob/main/Noorderlicht112.user.js
+// @downloadURL  https://github.com/Programming-ICE2COLD/Noorderlicht112/blob/main/Noorderlicht112.user.js
 // @author       ICE2COLD
 // @match        https://www.meldkamerspel.com/*
 // @include      /^https?:\/\/(?:w{3}\.)?(?:(policie\.)?operacni-stredisko\.cz|(politi\.)?alarmcentral-spil\.dk|(polizei\.)?leitstellenspiel\.de|missionchief\.gr|(?:(police\.)?missionchief-australia|(police\.)?missionchief|(poliisi\.)?hatakeskuspeli|missionchief-japan|missionchief-korea|(politiet\.)?nodsentralspillet|(politie\.)?meldkamerspel|operador193|jogo-operador112|jocdispecerat112|dispecerske-centrum|112-merkez|dyspetcher101-game)\.com|(police\.)?missionchief\.co\.uk|centro-de-mando\.es|centro-de-mando\.mx|(police\.)?operateur112\.fr|(polizia\.)?operatore112\.it|(policja\.)?operatorratunkowy\.pl|dispetcher112\.ru|(polis\.)?larmcentralen-spelet\.se)\/.*$/
