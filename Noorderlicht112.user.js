@@ -1,12 +1,11 @@
 // Changelog 0.1.4: kleine tekstuele aanpassingen, scriptlink verkort.
 // Changelog 0.1.5: Up- en downloadlink toegevoegd aan het script en handleidingen pagina toegevoegd.
 // Changelog 0.1.6: Typefouten hersteld
-// Changelog 0.1.7: Kleuren gewijzigd
 
 // ==UserScript==
 // @name         Noorderlicht 112
 // @namespace    http://tampermonkey.net/
-// @version      0.1.7
+// @version      0.1.6
 // @description  Een script voor het toepassen van de stijl van het team "Noorderlicht 112"
 // @updateURL    https://github.com/Programming-ICE2COLD/Noorderlicht112/blob/main/Noorderlicht112.user.js
 // @downloadURL  https://github.com/Programming-ICE2COLD/Noorderlicht112/blob/main/Noorderlicht112.user.js
@@ -56,7 +55,7 @@ function addGlobalStyle(css) {
 addGlobalStyle('html > body > div:first-of-type > nav > div:nth-of-type(2) > div:first-of-type > a:first-of-type {pointer-events: none !important;}');
 
 // MK-NL112 lichtblauw maken als deze aangeklikt is
-addGlobalStyle('.navbar-header.open {padding-right: 15px !important ; background-color: #12FFFF !important;}');
+addGlobalStyle('.navbar-header.open {padding-right: 15px !important ; background-color: #9c2421 !important;}');
 addGlobalStyle('.navbar-header a {margin-left: 0px !important}');
 
 // Menu naar juiste plaats verplaatsen
@@ -74,11 +73,11 @@ addGlobalStyle('html > body > div:first-of-type > nav > div:nth-of-type(2) > div
 
 
 // Kleuren
-addGlobalStyle('html > body > div:first-of-type .navbar-default {background-color: #12FFFF !important }'); // Kleur navigatiebalk bovenaan
+addGlobalStyle('html > body > div:first-of-type .navbar-default {background-color: #D1132F !important }'); // Kleur navigatiebalk bovenaan
 addGlobalStyle('html > body > div:first-of-type > nav > div:nth-of-type(2) > div:first-of-type > ul {background-color: #12FFFF !important;}'); // Kleur uitvouwmenu MK-NN
-addGlobalStyle('.mission_panel_red {border-left: 5px #12FFFF solid !important}'); // Kleur lint links van meldingen
-addGlobalStyle('.navbar-nav > li > .dropdown-menu {background-color: #12FFFF !important}'); // Kleur overige uitvouwmenu's
-addGlobalStyle('#container_navbar_alarm {background-color: #12FFFF !important}'); // Kleur onderste balk bij alarmeren van meldingen
+addGlobalStyle('.mission_panel_red {border-left: 5px #D1132F solid !important}'); // Kleur lint links van meldingen
+addGlobalStyle('.navbar-nav > li > .dropdown-menu {background-color: #D1132F !important}'); // Kleur overige uitvouwmenu's
+addGlobalStyle('#container_navbar_alarm {background-color: #D1132F !important}'); // Kleur onderste balk bij alarmeren van meldingen
 addGlobalStyle('.panel-default > .panel-heading {background-image: linear-gradient(to bottom, #e9e9e9 0, #e7e7e7 100%) }'); // Kleuren achtergrond meldingen wit naar lichtgrijs
 addGlobalStyle('.progress-bar-danger {background-image: linear-gradient(to bottom, #d9534f 0, #D1132F 100%) !important}'); // Kleuren voortgangsbalk hoofdpagina
 addGlobalStyle('html > body.dark.missionchief .alert-danger {background-image: linear-gradient(to bottom, #f3b2b299 0, #d57e7ea8 100%) !important ; color: #FFFFFF !important}'); // Kleuren donkere modus i.c.m. LSS-manager
